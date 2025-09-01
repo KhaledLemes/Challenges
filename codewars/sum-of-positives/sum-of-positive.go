@@ -1,16 +1,6 @@
 package main
 
-import (
-	p "fmt"
-)
-
-var numbers []int = []int{1,2,-6,-6,-8,2}
-
-func main() {
-	p.Println(PositiveSum(numbers))
-	
-}
-
+//I opted to only let the function on this file
 func PositiveSum(numbers []int) int {
 	sum := 0
 
