@@ -27,3 +27,7 @@ func MakeNegative(num int) int {
 		return 1*-num
 	}
 }
+```
+## What could I have done better?
+After submitting the challenge, I checked other people's solutions.<br>
+The most optimized approach was essentially the same as mine, except for one detail: instead of explicitly multiplying the number by 1 * -num, you can simply return -num, which is shorter and cleaner.
