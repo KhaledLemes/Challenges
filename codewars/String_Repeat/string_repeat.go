@@ -1,9 +1,4 @@
 package main
-import p "fmt"
-
-func main() {
-	p.Println(RepeatStr(1, "Oi"))
-}
 
 func RepeatStr(repetitions int, str string) string {
 	var result string
