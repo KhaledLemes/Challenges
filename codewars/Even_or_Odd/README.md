@@ -5,7 +5,7 @@ It should return "Even" for 0
 ### [Link to Codewars challenge](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
 
 ## Solving
-This is already a well documented function.  
+This is already a well known function.  
 I have simply created an *if* statement that returns "Even" if number % 2 == 0 and "Odd" otherwise
 
 ```go
